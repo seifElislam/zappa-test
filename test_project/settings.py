@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'u*zru8d#$6viy*i8^cw!8b))kefms*^%k(3v3v8iyi@8=p+q$y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS =  ['vx0ojude32.execute-api.us-west-2.amazonaws.com', '*', 'execute-api.us-west-2.amazonaws.com']
+ALLOWED_HOSTS =  ['*']
 
 
 # Application definition
