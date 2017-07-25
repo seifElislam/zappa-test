@@ -1,0 +1,7 @@
+{
+    "dev": {
+        "aws_region": "us-west-2",
+        "django_settings": "test_project.settings", 
+        "s3_bucket": "zappa-db-bucket"
+    }
+}
